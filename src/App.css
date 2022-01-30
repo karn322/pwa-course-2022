@@ -5,11 +5,12 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .userlist {
   background-color: #6968b9;
-  flex: 1;
+  flex: 1.5;
 }
 
 .chat {
@@ -17,7 +18,12 @@
   flex: 8;
 }
 
-.inputbox {
+.inputbox {  
   background-color: #f38b8b;
-  flex: 1.5;
+  flex: 1.5;  
+}
+
+.text{
+  border: 20px solid #c982e6;
+  background-color: #8df38d;
 }

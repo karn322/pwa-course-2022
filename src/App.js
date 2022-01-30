@@ -7,24 +7,42 @@ function Userlist () {
   )
 }
 
+function Text (){
+  return(
+    <div className="text">
+      <h1>Hello World!</h1>
+    </div>
+  )
+}
+
 function Chat () {
   return (
-    <div className="chat">
+    <div className="chat">      
     </div>
   )
 }
 
 function Inputbox () {
   return (
-    <div className="inputbox">
+    <div className="inputbox">      
+      <input type="text" id="userInput" value="" placeholder='type something'>
+      </input>
+      <button onclick= {SentText} >Sent!</button>
     </div>
-  )
+  )  
 }
+
+function SentText ()
+{
+
+}
+
 
 function App() {
   return (
     <div className="App">
-      <Userlist/>
+      <Userlist/>      
+      <Text/>
       <Chat/>
       <Inputbox/>
     </div>
