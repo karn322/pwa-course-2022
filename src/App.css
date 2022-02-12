@@ -7,12 +7,6 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
-  .App {
-    background-color: rgb(255, 95, 95);
-  }
-}
-
 .userlist {
   flex: 1;
   background-color: #331a12;
@@ -21,12 +15,26 @@
 .chat {
   flex: 12;
   background-color: silver;
-  margin-top: 10%;
 }
 
 .inputbox {
   flex: 1;
   background-color: gray;
+}
+
+@media (max-width: 768px) {
+  .chat {
+    
+    background-image: url(/public/2.png);
+    background-repeat: no-repeat;
+    background-position: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .inputbox {
+    background-color: goldenrod;
+  }
 }
 
 .col-1 {width: 8.33%;}
